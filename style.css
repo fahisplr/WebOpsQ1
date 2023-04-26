@@ -1,0 +1,176 @@
+﻿/* General Styles */
+html,body{
+    height:100%;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    position:absolute;
+}
+body {
+    position: absolute;
+    top: 3%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 96%;
+    text-align: center;
+    background: linear-gradient(to bottom,#DFD0EE, #9975BD);
+}
+#contact-me{
+    display:none;
+}
+#head {
+    position: absolute;
+    left: 3%;
+    top: 0%;
+    width:90%;
+    background-color: #f7f7f7;
+    padding: 2%;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
+    align-content: center;
+    width: 95%;
+    height: 70%;
+    border-radius:2% ;
+}
+#lt{
+    position:absolute;
+    left:20%;
+    top:25%;
+    width:23%;
+    text-align:left;
+}
+#rt {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    width: 23%;
+    text-align: left;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #f7f7f7;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    header h1 {
+        font-size: 36px;
+        margin: 0;
+    }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+    nav li:first-child {
+        margin-left: 0;
+    }
+
+nav a {
+    display: block;
+    padding: 10px;
+}
+
+    nav a:hover {
+        background-color: #333;
+        color: #fff;
+    }
+
+/* Main Styles */
+
+main {
+    padding: 50px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+    section h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+.work-item {
+    margin-bottom: 30px;
+}
+
+    .work-item img {
+        margin-bottom: 10px;
+    }
+
+    .work-item h3 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .work-item p {
+        margin: 0;
+    }
+
+/* Contact Form Styles */
+
+form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+    form input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border-radius: 0;
+        transition: background-color 0.3s ease;
+    }
+
+        form input[type="submit"]:hover {
+            background-color: #666;
+        }
+
+/* Footer Styles */
+
+footer {
+    height:8%;
+    width:92%;
+    position:fixed;
+    top:85%;
+    left:3%;
+    background-color: #f7f7f7;
+    padding: 20px;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
